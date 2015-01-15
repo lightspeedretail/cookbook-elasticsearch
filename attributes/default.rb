@@ -44,6 +44,7 @@ default.elasticsearch[:pid_file]  = "#{node.elasticsearch[:pid_path]}/#{node.ela
 
 default.elasticsearch[:templates][:elasticsearch_env] = "elasticsearch-env.sh.erb"
 default.elasticsearch[:templates][:elasticsearch_yml] = "elasticsearch.yml.erb"
+default.elasticsearch[:templates][:elasticsearch_yml_cookbook] = nil
 default.elasticsearch[:templates][:logging_yml]       = "logging.yml.erb"
 
 # === MEMORY
